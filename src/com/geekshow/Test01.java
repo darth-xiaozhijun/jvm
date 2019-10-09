@@ -8,7 +8,7 @@ public class Test01 {
 		//-XX:+PrintGCDetails
 		//-XX:+PrintCommandLineFlags
 		
-		//-XX:+PrintGC -Xms5m -Xmx20m -XX:+UserSerialGC -XX:+PrintGCDetails 
+		//-XX:+PrintGC -Xms5m -Xmx20m -XX:+UseSerialGC -XX:+PrintGCDetails 
 
 		//查看GC信息
 		System.out.println("max memory:" + Runtime.getRuntime().maxMemory());
